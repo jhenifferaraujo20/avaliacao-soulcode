@@ -8,6 +8,10 @@
   font-size: 2rem;
 }
 
+.navbar-brand:focus, .navbar-brand:hover {
+  color: #ffffff;
+}
+
 .nav-link,
 .nav-link:hover,
 .nav-link:active,
@@ -106,9 +110,15 @@
 
 .circular-img {
   width: 80%;
+  max-width: 20.75rem;
   height: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.circular-img:hover {
+  transform: translateY(-5px);
 }
 
 .sub-title {
